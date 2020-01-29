@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url("./Mzamomtsha10.jpg");
+    background-size: cover;
+}
+    
+.logo {
+    padding: 0;
+    margin: 0;
+}
+.image{
+    width: 100%;
+    height: 50%;
+}
+/* .main-nav {
+    display:flex
+
+}
+.main-nav {
+    display: inline-block;
+} */
+/* .main-nav li a{
+    color:white
+    padding: 5x 20px}
+    font-family: "roboto","sans-serif";
+    font-size:15px;
+} */
+.row {
+    color:white;
+    padding: 5px 20px;
+    font-family: "roboto","sans-serif";
+    font-size:15px;
+    justify-content: end;
+    
+}
+.main-nav li{
+    float: right;
+    display: block;
+    padding: 10px;
+    
+}
+.main-nav{
+    border-style: solid;
+    color:purple
+}
+.main-nav li a{
+    color: white;
+}
+.heading{
+   
+    color:purple;
+    text-align:center;
+    font-size: 50px;
+}
+.paragraph{
+    color:white;
+    font-size: 20px;
+}
+.row{
+    color:white
+}
+.pictures{
+    color:white;
+    font-size: 20px;
+    
+}
+.buttons{
+    display: flex;
+    align-items: flex-end;
+}
